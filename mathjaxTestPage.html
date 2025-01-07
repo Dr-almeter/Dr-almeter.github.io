@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+    <title>Jordan Almeter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(function(){
+        $("#navbar").load("/navbar.html");
+	});
+    </script>
+	<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+	<script type="text/javascript"
+		src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+  </head>
+  <body>
+    <nav id="navbar" class="nav">
+    </nav>
+    <img src="images/headshot.jpg" alt="picture of me" style="float:left;max-width:30%;height:auto; margin: 0px 10px 5px 0px">
+    <h3>Jordan Almeter</h3>
+    <p>Hello, World! This website uses MathJax to display equations correctly.</p>
+	<p> When $a \ne 0$, there are two solutions to our equation.
+	</p>
+  </body>
+</html>
+
